@@ -23,6 +23,7 @@ public class ReverserTest {
 		}
 	}
 	
+	@Test
 	public void hashTheUnHashed() {
 		Reverser reverser = new Reverser();
 		Hasher hasher = new Hasher();
